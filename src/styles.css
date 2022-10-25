@@ -6,6 +6,7 @@
     text-decoration: none;
 }
 
+
 /* .content {
     margin: 2px;
     border-radius: 10px;
@@ -96,19 +97,24 @@ button {
     justify-content: center;
 }
 
-
-/* 
-.footer {
+/* .some-random-information {
     display: flex;
+    margin-inline: 4rem;
+    margin-top: 4rem;
+    padding: 1px;
+    background: #f9faf8;
+    flex-direction: column;
+    flex-wrap: wrap;
     border: 1px solid salmon;
-
 }
 
-.copy-right {
+.some-random-information div {
     flex: 1 1 0;
-    justify-content: center;
-    border: 1px solid blue;
+    height: auto;
+    background-color: #f9faf8;
+    border: 2px solid saddlebrown;    
 } */
+
 
 /* dark background color (hero and footer)
 #1F2937;
