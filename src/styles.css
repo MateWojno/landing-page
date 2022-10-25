@@ -1,0 +1,68 @@
+* {
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
+    margin: 1vh;
+    padding: 1vh;
+}
+
+/* .content {
+    border-radius: 10px;
+    border: 10px solid salmon;
+} */
+
+.navbar {
+    display: flex;
+    
+    
+    
+}
+
+.header-logo {
+    flex: auto;
+    border: 1px solid salmon;
+    justify-self: left;
+}
+
+.header-link {
+    flex: auto;
+    border: 1px solid salmon;
+    width: fit-content;   
+    color: whitesmoke;
+    
+}
+
+.footer {
+    display: flex;
+    border: 1px solid salmon;
+
+}
+
+.copy-right {
+    flex: 1 1 0;
+    justify-content: center;
+    border: 1px solid blue;
+}
+
+/* dark background color (hero and footer)
+#1F2937;
+
+hero main text ("this website is awesome")
+48px extra-bold #f9faf8
+
+hero secondary text, header link text 
+18px #e5e7eb
+
+header logo text
+24px #f9faf8
+
+button color, call to action background color
+#3882f6 
+
+information header text
+36px extra-bold #1f2937
+
+quote section background color
+#e5e7eb
+
+quote text 
+36px light italic #1f2937 */
