@@ -1,36 +1,103 @@
 * {
     background-color: #1f2937;
     font-family: 'Roboto', sans-serif;
-    margin: 1vh;
-    padding: 1vh;
+    margin: 2px;
+    color:  #f9faf8;
+    text-decoration: none;
 }
 
 /* .content {
+    margin: 2px;
     border-radius: 10px;
-    border: 10px solid salmon;
+    border: 1px solid #fff;
 } */
 
 .navbar {
+    margin-inline: 4rem;
+    margin-top: 2px;
+    padding: 1px;
     display: flex;
-    
-    
-    
+    flex: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
 }
 
 .header-logo {
-    flex: auto;
-    border: 1px solid salmon;
-    justify-self: left;
+    flex: 3 1 0;
+    font-size: 24px;
+    color: #f9faf8;
+    align-self: center;
+    /* border: 1px solid salmon; */
 }
 
 .header-link {
-    flex: auto;
-    border: 1px solid salmon;
-    width: fit-content;   
-    color: whitesmoke;
+    flex: 1 1 0;
+    font-size: 18px;
+    align-self: center;
+    justify-content: space-evenly;
+    color: #f9faf8;
+
+    /* border: 1px solid salmon; */
+}
+
+.content-navbar {
+    margin-inline: 4rem;
+    margin-top: 4rem;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* border: 3px solid rgb(158, 147, 146); */
     
 }
 
+.left-side-nav {
+    font-size: 48px;
+    flex: 1 1 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    gap: 10px;
+    text-align: left;
+    /* border: 1px solid salmon; */
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: left;
+}
+
+
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    height: 2rem;
+    width: 6rem;
+
+    border: 1px solid rgb(151, 175, 231);
+}
+
+.content.navbar.image {
+    flex: 1 1 0;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    background: rgb(113, 124, 137);
+    width: 600px;
+    height: 300px;
+    /* border: 1px solid #f0f; */
+}
+.placeholder {
+    flex: 1 1 1;
+    background-color: rgb(113, 124, 137);
+    align-self: center;
+    justify-content: center;
+}
+
+
+/* 
 .footer {
     display: flex;
     border: 1px solid salmon;
@@ -41,7 +108,7 @@
     flex: 1 1 0;
     justify-content: center;
     border: 1px solid blue;
-}
+} */
 
 /* dark background color (hero and footer)
 #1F2937;
