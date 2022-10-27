@@ -100,14 +100,14 @@ button {
     align-items: center;
     width: fit-content;
     height: fit-content;
-    background: rgb(113, 124, 137);
+    background-color: #1f2937;
     width: 600px;
     height: 300px;
     /* border: 1px solid #f0f; */
 }
 .placeholder {
     flex: 1 1 1;
-    background-color: rgb(113, 124, 137);
+    background-color: #1f2937;
     align-self: center;
     justify-content: center;
 }
@@ -157,35 +157,32 @@ button {
     display: flex;
     flex-wrap: wrap;
     background: #f9faf8;
-    height: 400px;
     justify-items: center;
-    gap: 2vh;
-    padding-bottom: 14vh;
-    margin-bottom: 10vh;
+    gap: 1rem;
+    margin-bottom: 2rem;
     margin-inline: 4rem;
     margin-top: 2px;
 }
 .p2-sub {
     flex: 1 1 0;
-    padding-top: 42vh;
-    padding-bottom: 12vh;
+    padding: 1rem;
     background-color: #f9faf8;
     color: #1f2937;
     border-radius: 10px;
-    height: 12vh;
     border: 6px solid #3882f0;
     text-align:center;
 }
 .p2-sub-image {
     color: #1f2937;
     background-color: #f9faf8;
-    height: 200px;
+    height: 400px;
     width: 300px;
 }
 .p2-cap {
     color: #1f2937;
     background-color: #f9faf8;
     font-size: small;
+    padding: 1rem;
 }
 
 #parent-3 {
