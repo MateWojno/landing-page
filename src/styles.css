@@ -20,16 +20,20 @@
     padding-bottom: 2rem;
 }
 .p1-content {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
     padding-bottom: 2rem;
 }
 .navbar {
+    flex: 1 1 0;
     margin-inline: 4rem;
     margin-top: 2px;
     padding: 1px;
     display: flex;
     flex: wrap;
     align-items: flex-start;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 .header-logo {
     flex: 3 1 0;
@@ -37,13 +41,20 @@
     color: #f9faf8;
     align-self: center;
 }
-.header-link {
+.header-link-one, .header-link-two, .header-link-three{
     flex: 1 1 0;
     font-size: 18px;
     align-self: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center;
     color: #f9faf8;
+}
+.header-link-one {
+    margin-left: -1rem;
+    padding-right: 2rem;
+}
+.header-link-three {
+    margin-right: -1rem;
 }
 .content-navbar {
     margin-inline: 2rem; 
@@ -69,6 +80,7 @@
     font-size: 18px;
     color: #e5e7eb;
     text-align: left;
+    margin-top: -2rem;
 }
 button {
     background-color: #3882f6;
