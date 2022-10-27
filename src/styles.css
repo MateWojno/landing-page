@@ -115,14 +115,10 @@ button {
 .p2-content {
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 0;
-    margin-inline: 4rem;
-    margin-top: 2px;
+    flex-direction: column;
     flex: 1 1 0;
     background-color: #f9faf8;
-    /* border: 1px solid #000; */
-    padding-bottom: 14vh;
-    /* height: 30vh; */
+    
 }
 .p2-header {
     display: flex;
@@ -148,27 +144,48 @@ button {
     flex-wrap: wrap;
     display: flex;
     background-color: #f9faf8;
-    height: 30vh;
+    align-items: center;
+    justify-content: center;
 }
+
 .p2-img {
     flex: 1 1 0;
     display: flex;
+    flex-wrap: wrap;
     background: #f9faf8;
-    height: 40vh;
-    align-items: center;
-    justify-content: space-between;
+    height: 400px;
+    justify-items: center;
     gap: 2vh;
+    padding-bottom: 14vh;
+    margin-bottom: 10vh;
+    margin-inline: 4rem;
+    margin-top: 2px;
 }
+
+
 .p2-sub {
     flex: 1 1 0;
-    padding-top: 22vh;
-    padding-bottom: 2vh;
+    padding-top: 42vh;
+    padding-bottom: 12vh;
     background-color: #f9faf8;
     color: #1f2937;
     border-radius: 10px;
     height: 12vh;
-    border: 6px dotted #1f2937;
+    border: 6px solid #3882f0;
     text-align:center;
+}
+
+.p2-sub-image {
+    color: #1f2937;
+    background-color: #f9faf8;
+    height: 200px;
+    width: 300px;
+}
+
+.p2-cap {
+    color: #1f2937;
+    background-color: #f9faf8;
+    font-size: small;
 }
 
 #parent-3 {
