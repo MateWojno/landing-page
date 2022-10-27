@@ -267,6 +267,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: fit-content;
     /* border: 1px solid seagreen; */
 }
 .p5-content {
@@ -274,5 +275,12 @@ button {
     justify-items: center;
     align-items: center;
     background-color: #1f2937;
-    height: 100px;
+    padding: 1rem;
+    height: fit-content;
+}
+.p5-footer {
+    flex: 1 1 0;
+    align-self: center;
+    text-align: center;
+    font-weight: 400;
 }
