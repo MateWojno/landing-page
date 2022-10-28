@@ -3,6 +3,7 @@
     font-family: 'Roboto', sans-serif;
     color:  #f9faf8;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 #grandparent {
@@ -235,18 +236,18 @@ button {
 }
 
 #parent-4 {
-    padding: 20vh;
+    padding: 2rem;
     flex: 1 1 0;
     display: flex;
-    background: #f9faf8;
+    background: #1f2937;
 }
 .p4-content {
     flex: 1 1 0;
     display: flex;
     justify-items: center;
     align-items: center;
-    background-color: #f9faf8;
-    height: 600px;
+    background-color: #1f2937;
+    height: fit-content;
     width: auto;
 }
 .p4-button-container {
@@ -256,6 +257,8 @@ button {
     display: flex;
     background-color: #3882f6;
     padding: 2rem;
+    border-radius: 15px;
+
 }
 .p4-button-item {
     flex: 6 1 0;
