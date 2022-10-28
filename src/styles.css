@@ -117,8 +117,8 @@ button {
 #parent-2 {
     flex: 1 1 0;
     display: flex;
-    border: 1px solid;
-    background-color: #f9faf8; 
+    background-color: #1f2937;
+    border-radius: 15px; 
 }
 .p2-content {
     display: flex;
@@ -126,6 +126,7 @@ button {
     flex-direction: column;
     flex: 1 1 0;
     background-color: #f9faf8;
+    border-radius: 15px;
     
 }
 .p2-header {
@@ -200,6 +201,8 @@ button {
     flex: 1 1 0;
     display: flex;
     background: #e5e7eb;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .p3-content {
     flex: 1 1 0;
@@ -236,7 +239,8 @@ button {
 }
 
 #parent-4 {
-    padding: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
     flex: 1 1 0;
     display: flex;
     background: #1f2937;
@@ -267,7 +271,6 @@ button {
     display: flex;
     width: auto;
     background-color: #3882f6;
-    margin: 1rem;
 }
 .p4-h2, .p4-b-p {
     background-color: #3882f6;
